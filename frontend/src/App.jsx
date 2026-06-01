@@ -27,7 +27,7 @@ function App() {
           }
         />
         <Route
-          path="board/:id"
+          path="/board/:id"
           element={
             <PrivateRoute>
               <BoardDetail />
