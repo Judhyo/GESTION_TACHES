@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/";
+const API_URL = "https://gestion-taches-61ze.onrender.com/";
 
 export const register = (email, password) =>
   axios.post(`${API_URL}auth/register`, { email, password });
