@@ -53,7 +53,7 @@ export default function AddColumnModal({ boardId, onClose }) {
     try {
       await columnApi.createColumn(formData);
 
-      toast.success("Colonnes créées avec succès 🎉");
+      toast.success("Colonnes créées avec succès");
 
       navigate(`/board/${boardId}`);
     } catch {
